@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+
+/*** login.jsp ***/
+
+.login-form {
+	padding: 40px 60px;
+	border: 1px solid #5bc0de;
+	text-align: center;
+	width: 400px;
+	margin: 60px auto;
+	border-radius: 10px;
+}
+
+.login-form table {
+	margin: 0 auto;
+}
+
+.login-form table tr{
+    margin-bottom: 10px;
+}
+
+.login-form h1 {
+	font-size: 32px;
+}
+
+.login-form input {
+	border-radius: 10px;
+	background-color: #5bc0de;
+	color: #fff;
+	padding: 8px;
+	text-align: center;
+}
+
+
+/*** menu.jsp ***/
+
+header {
+	width: 100%;
+	border-bottom: 1px solid #c0c0c0;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+
+header img {
+	float: left;
+}
+
+.inner {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header nav {
+	float: left;
+}
+
+header nav ul li {
+	display : inline-block;
+	padding: 0 25px;
+}
+
+header nav ul li a {
+    color: #777;
+}
